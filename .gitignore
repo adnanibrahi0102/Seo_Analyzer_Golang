@@ -1,0 +1,38 @@
+# Ignore Docker files
+**/docker-compose.yml
+**/Dockerfile
+**/docker-compose.override.yml
+**/docker-entrypoint-initdb.d/
+
+# Ignore Docker-related build artifacts
+**/secrets/
+**/logs/
+**/tmp/
+**/.docker/
+
+# Go build files
+/bin/
+/pkg/
+/vendor/
+*.exe
+*.test
+*.out
+
+# IDE/Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PostgreSQL files
+postgres-data/
+pg_wal/
+*.sql
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Other unnecessary files
+.env
+*.log
