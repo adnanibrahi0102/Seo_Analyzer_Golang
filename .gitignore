@@ -1,5 +1,5 @@
 # Ignore Docker files
-**/docker-compose.yml
+**/docker-compose.yaml
 **/Dockerfile
 **/docker-compose.override.yml
 **/docker-entrypoint-initdb.d/
