@@ -12,5 +12,7 @@ func SetupRouter() *gin.Engine {
 	router.GET("/api/v1/test", func(c *gin.Context) {
 		c.JSON(200, gin.H{"message": "Hello, World!"})
 	})
+
+	router.POST("/api/v1/summarize-text", handlers.SummarizeTextHandler)
 	return router
 }

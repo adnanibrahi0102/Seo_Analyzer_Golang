@@ -13,7 +13,7 @@ import (
 var (
 	DB          *gorm.DB      // PostgreSQL connection
 	RedisClient *redis.Client // Redis connection
-	Ctx         = context.Background() // Changed ctx to Ctx to make it exported
+	Ctx         = context.Background() 
 )
 
 // ConnectToDB initializes the PostgreSQL database connection

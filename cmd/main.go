@@ -2,7 +2,6 @@ package main
 
 import (
 	"log"
-
 	"github.com/adnanibrahi0102/seo-analyzer-golang/config"
 	"github.com/adnanibrahi0102/seo-analyzer-golang/models"
 	"github.com/adnanibrahi0102/seo-analyzer-golang/routes"
